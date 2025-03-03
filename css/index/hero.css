@@ -1,0 +1,48 @@
+.grid-container{
+    display: grid;
+    background-color: lightblue;
+    margin: 5%;
+    border-radius: 15px;
+    margin-top: 5%;
+    padding: 8px;
+    column-gap: 2%;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-photo{
+    grid-column: 1/10;
+
+    height: 325px;
+    width: 100%;
+    margin: 3%;
+    border-radius: 15px;
+}
+
+.hero-content{
+    grid-column: 10/16;
+    
+}
+
+h1{
+    text-align: center;
+    font-family:'Times New Roman', Times, serif
+}
+
+.bio{
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.grid-socials{
+    display: grid;
+    grid-auto-flow: column; /* Distribuye los elementos en columnas automáticamente */
+    justify-content: flex-start; /* Centra los elementos en el contenedor */
+    align-items: center; /* Alinea verticalmente */
+}
+
+.social-item{
+    margin: 4px;
+}

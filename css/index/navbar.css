@@ -1,0 +1,88 @@
+
+
+/* .grid-navbar{ */
+    /* display: flex; */
+    /* grid-auto-flow: column; Distribuye los elementos en columnas automáticamente */
+    /* justify-content: /space-around; Centra los elementos en el contenedor */
+    /* align-items: center; Alinea verticalmente */
+    /* background-color: lightblue; */
+    /* width: 100%; */
+    /* padding: 20px; */
+    /* text-align: center; */
+    /* margin: 0; */
+    /* margin-right: 25%; */
+    /* margin-left: 25; */
+
+/* } */
+
+.grid-navbar{
+    display: flex;
+    gap: 10%;
+    background-color: lightblue;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* .flex-container { */
+    /* display: flex; */
+    /* flex-wrap: wrap;  */
+    /* width: fit-content;  */
+    /* background-color: lightgr; */
+    /* padding: 10px; */
+    /* gap: 15px;  */
+    /* margin-top: 3%; */
+    /* justify-self: center; */
+    /* align-items: center; */
+    /* margin-right: 25%; */
+    /* margin-left: 25%; */
+
+/* } */
+
+/* .flex-navbar { */
+    /* 40% del flex containee */
+    /* flex: 1 1 100%;  */
+    /* font-weight: bold; */
+    /* text-align: left; */
+/* } */
+
+/* .line { */
+    /* 60% del flex container */
+    /* flex: 1 1 100%;  */
+    /* color: black; no funciona */
+    /* width: 10px; no funciona */
+/* } */
+
+/* .home{ */
+    /* grid-column: 1; */
+    /* align-self: center; */
+/* } */
+
+/* .experience{ */
+    /* grid-column: 2; */
+/* } */
+
+/* .contact{ */
+    /* grid-column: 3; */
+/* } */
+
+
+/* BOTONES DEL NAVBAR */
+.nav-item{
+    color: white;
+    /* border-radius: 80%; no funciona no se porque */
+    background-color: black;
+    border-radius: 10% ;
+}
+
+.nav-item:hover{
+    background-color: gray;
+}
+
