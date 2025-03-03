@@ -1,0 +1,25 @@
+
+
+.heroes{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+
+
+.hero{
+    padding: 20px;
+    color: white;
+}
+
+
+
+.hero:nth-child(odd){
+    background-color: blue;
+}
+
+
+.hero:nth-child(even){
+    background-color: red;
+}
