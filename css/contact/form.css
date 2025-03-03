@@ -1,0 +1,66 @@
+
+
+
+.contact-container{
+
+    display: grid;
+    background-color: lightblue;
+    margin: 4%;
+    border-radius: 15px;
+    margin-top: 5%;
+    padding: 6px;
+    gap: 2%;
+    align-items: center;
+    /* justify-content: center; */
+    grid-template-columns: auto 1fr;
+
+}
+
+
+.emoji{
+    
+    /* grid-column: 1/8; */
+    grid-column: span 1;
+    height: auto;
+    max-width: 250px;
+    width: 100%;
+
+    margin: 3%;
+    border-radius: 15px;
+}
+
+
+.form-flex{
+    /* grid-column: 9/14; */
+    grid-column: span 1 ;
+    display: flex;
+    padding: 10px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+.inputs{
+    margin-left: 10px;
+    margin-right: 10px;
+    flex: 1 1 100%;
+    flex-grow: 1; /* Hace que los inputs se expandan automáticamente */
+    min-width: 150px; /* Evita que sean demasiado pequeños */
+}
+
+
+.flex-label {
+    /* 40% del flex containee */
+    flex: 1 1 40%; 
+    font-weight: bold;
+    text-align: left;
+}
+
+.flex-value {
+    /* 60% del flex container */
+    flex: 1 1 45%; 
+    text-align: left;
+}
+
+
+
