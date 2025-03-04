@@ -1,5 +1,12 @@
 body{
     background-color: lightgray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 40px;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
 }
 
 /* NAVBAR */
@@ -7,13 +14,25 @@ body{
     /* flex con los elementos en el centro y el mismo navbar en el centro */
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* justify-content: start; */
+    /* align-items: start; */
     /* 10% entre cada elemento del navbar */
     gap: 10%;
     background-color:  #005f73;
     padding: 10px 20px;
     border-radius: 10px;
+    position: fixed;
+    top: 0;
+    left: 100;
+    width: 90%;
+    
+}
 
+header{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
 
 
