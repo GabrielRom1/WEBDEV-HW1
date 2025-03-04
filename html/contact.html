@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact</title>
     <link rel="stylesheet" href="../css/index/navbar.css">
     <link rel="stylesheet" href="../css/index/hero.css">
     <link rel="stylesheet" href="../css/contact/form.css">
@@ -14,17 +14,14 @@
     <header >
         <nav class="flex-navbar">
             <div class="home">
-                <!-- <button class="nav-item" href="index.html">opcion 1</button> -->
                 <a class="nav-item" href="index.html">Home</a>
             </div>
 
             <div class="experience">
-                <!-- <button class="nav-item" href="experience.html">opcion 2</button> -->
-                <a class="nav-item" href="experience.html">Experience</a>
+                <a class="nav-item" href="experience.html">Experiences</a>
             </div>
 
             <div class="contact">
-                <!-- <button class="nav-item" href="contact.html">opcion 3</button> -->
                 <a class="nav-item" href="contact.html">Contact</a>
             </div>
         </nav>
@@ -40,14 +37,14 @@
 
 
 
-    <div class="contact-container" >
+    <div class="hero" >
 
-        <img class="emoji" src="https://w7.pngwing.com/pngs/797/467/png-transparent-iphone-emoji-samsung-galaxy-guess-the-questions-crying-emoji-emoticon-logo-electronics-smiley-apple-color-emoji-thumbnail.png" alt="foto">
+        <img class="hero-photo" src="https://w7.pngwing.com/pngs/797/467/png-transparent-iphone-emoji-samsung-galaxy-guess-the-questions-crying-emoji-emoticon-logo-electronics-smiley-apple-color-emoji-thumbnail.png" alt="foto">
 
 
 
             
-        <form class="form-flex" id="form" onsubmit="return false;">
+        <form class="hero-content form-flex" id="form" onsubmit="return false;">
 
             <label for="name">Name</label>
             <input class="inputs" id="name" type="text" placeholder="Enter name">
@@ -58,10 +55,10 @@
             <label for="message">Message</label>
             <textarea class="inputs" id="message" name="message"  placeholder="Write your message"></textarea>
 
-            <input type="submit" value="Submit">
+            <input class="button" type="submit" value="Submit">
         </form>
 
-        <div id="submit-container"></div>
+        <div  id="submit-container"></div>
     
 
         <script src="../js/form.js"></script>
