@@ -11,7 +11,6 @@
     max-width: 90%;
 }
 
-
 /* ALTERNANDO LOS COLORES */
 .hero:nth-child(odd) {
     background-color: #ffe5b4;
