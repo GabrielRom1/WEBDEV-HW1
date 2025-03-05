@@ -1,0 +1,30 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; 
+    width: 50%; 
+    background-color:  #A3C4F3;
+    padding: 10px;
+    gap: 15px; 
+    border-radius: 10px;
+    align-items: center;
+}
+
+.flex-label {
+    /* 40% del flex containee */
+    flex: 1 1 40%; 
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.flex-value {
+    /* 60% del flex container */
+    flex: 1 1 45%; 
+    text-align: center;
+}
+
+.emoji{
+    border-radius: 0px;
+    box-shadow: none;
+}
+
