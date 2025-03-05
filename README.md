@@ -94,6 +94,5 @@ Dra. Yaira Rivera
 <ol>
     <li>    <a href="https://www.w3schools.com/jsref/jsref_obj_string.asp"> Métodos de string en Javascript</a>     </li>
     <li>    <a href="https://www.reddit.com/r/webdev/comments/182tyzu/how_to_prevent_page_refresh_when_auto_submitting/?rdt=57377"> Parar "refresh" al someter form</a>     </li>
-    <li>    <a href="https://www.w3schools.com/jsref/jsref_obj_string.asp"> Métodos de string en Javascript</a>     </li>
 
 </ol>

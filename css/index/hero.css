@@ -15,17 +15,14 @@
 /* ALTERNANDO LOS COLORES */
 .hero:nth-child(odd) {
     background-color: #ffe5b4;
-    /* flex-direction: column; */
 }
 
 .hero:nth-child(even) {
     background-color: #A3C4F3;
-    /* flex-direction: column; */
 }
 
 
 .hero-photo {
-    /* width: 100%; */
     max-width: 15%;
     height: auto;
     border-radius: 10px;

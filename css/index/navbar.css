@@ -13,8 +13,6 @@ body{
     /* flex con los elementos en el centro y el mismo navbar en el centro */
     display: flex;
     justify-content: center;
-    /* justify-content: start; */
-    /* align-items: start; */
     /* 10% entre cada elemento del navbar */
     gap: 10%;
     background-color:  #005f73;
@@ -30,7 +28,6 @@ body{
 header{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
 
