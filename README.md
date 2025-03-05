@@ -66,10 +66,9 @@ La funcionalidad principal de este form es que valida la entrada del usuario en 
 
 <h4>Acción al someter dependiendo la validez.</h4>
 
-<p>
 
-    Una vez se determina el resultado de la validación, aparecerá una imagen indicando si se ha sometido sin errores o con errores.
-</p>
+Una vez se determina el resultado de la validación, aparecerá una imagen indicando si se ha sometido sin errores o con errores.
+
 
 <strong>Imagen al someter con éxito</strong>
 <img src="./static/success.jpeg">
