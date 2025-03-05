@@ -42,9 +42,7 @@ Dra. Yaira Rivera
 
 <h3>Botones dentro de los "hero"</h3>
 
-<p>
-    Otra funcionalidad muy parecida a el navbar, pero presente en las tarjetas "hero" son los botones que redirigen a páginas con más informacion sobre las experiencias.
-</p>
+Otra funcionalidad muy parecida a el navbar, pero presente en las tarjetas "hero" son los botones que redirigen a páginas con más informacion sobre las experiencias.
 
 
 <h3>Form</h3>
@@ -53,11 +51,8 @@ Dra. Yaira Rivera
 
 <h4>Validación</h4>
 
-<p>
+La funcionalidad principal de este form es que valida la entrada del usuario en todos los campos. A pesar de que no se valida de una manera convencional pues por ejemplo se aceptan nombres con solo 1 caracter, mensajes de solo 1 caracter, o emails como a@a.a, quise implementar esta validación "iterativa" para practicar mis habilidades con Javascript. En particular, probé la validación de email aunque el usuario manualmente elimine el  
 
-    La funcionalidad principal de este form es que valida la entrada del usuario en todos los campos. A pesar de que no se valida de una manera convencional pues por ejemplo se aceptan nombres con solo 1 caracter, mensajes de solo 1 caracter, o emails como a@a.a, quise implementar esta validación "iterativa" para practicar mis habilidades con Javascript. En particular, probé la validación de email aunque el usuario manualmente elimine el 
-    
-</p>
     
 
 <code>type="email"</code>. De esta manera me aseguro que la validación se lleve acabo sin importar esta modificación. Para ver cómo realizo la validación puede visitar el archivo <code>"js/form.js"</code>. Básicamente para hacer la validación añadí un "Event Listener" al elemento con <code>Id="form"</code>. Con esto realizado ya puedo invocar las distintas funciones pertinentes en cada ocasión que se someta el formulario.
