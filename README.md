@@ -8,9 +8,9 @@ Dra. Yaira Rivera
 
 
 <ul>
-    <li> <img src="./static/color-crema.png"> Algunos hero ( #ffe5b4)</li>
-    <li> <img src="./static/color-azul.png"> Algunos hero ( #A3C4F3;)</li>
-    <li> <img src="./static/color-lightgray.png"> Fondo (#D3D3D3)</li>
+    <img src="./static/color-crema.png"> Algunos hero ( #ffe5b4)</li>
+    <img src="./static/color-azul.png"> Algunos hero ( #A3C4F3;)</li>
+    <img src="./static/color-lightgray.png"> Fondo (#D3D3D3)</li>
 </ul>
 
 <strong>En el proyecto se usan otros colores para los efectos de "hover" y estilo de los botones, pero son derivados de los antes mencionados.</strong>
