@@ -5,7 +5,7 @@ document.getElementById("form").addEventListener("submit", function(){
 
     // le digo al user que ha sometido mucho
     if(count > 7){
-        alert("Porfavor no sigas sometiendo cosas inválidas...");
+        alert("Porfavor no sigas sometiendo...");
     }
 
     // capturo los valores de los inputs
